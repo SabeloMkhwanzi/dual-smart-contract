@@ -1,15 +1,18 @@
 # FEVM Hardhat Kit
 
-## Cloning the Repo
+### Deployed Smart Contracts
 - Gamers contract address: 
 - Factory contract address: 
+
+### Front-end
+Links to our project front-end [here](https://github.com/SabeloMkhwanzi/dual)
 
 Open up your terminal (or command prompt) and navigate to a directory you would like to store this code on. Once there type in the following command:
 
 
 ```
-git clone https://github.com/filecoin-project/fevm-hardhat-kit.git
-cd fevm-hardhat-kit
+git clone https://github.com/SabeloMkhwanzi/dual-smart-contract
+cd dual-smart-contract
 yarn install
 ```
 
