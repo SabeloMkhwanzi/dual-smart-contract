@@ -38,4 +38,11 @@ module.exports = async ({ deployments }) => {
     const market = await Market.deploy()
     await market.deployed()
     console.log("Market deployed to:", market.address)
+
+    //deploy the Market contract
+    const DualVideo = await ethers.getContractFactory("DualVideo", wallet)
+    console.log("Deploying the DualVideo contract...")
+    const dualVideo = await DualVideo.deploy()
+    await dualVideo.deployed()
+    console.log("Market deployed to:", dualVideo.address)
 }
